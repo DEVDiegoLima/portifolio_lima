@@ -1,0 +1,10 @@
+
+
+@media (max-width: 1024px) {
+  .thanks h1 {
+    font-size: 2.4rem;
+  }
+  .thanks p {
+    font-size: 1.4rem;
+  }
+}

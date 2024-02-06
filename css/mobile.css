@@ -1,0 +1,138 @@
+@media (max-width: 1024px) {
+  /* Navbar */
+  .navbar-container {
+    display: none;
+  }
+
+  /* ShowCase */
+  .showcase-container {
+    background-position: center;
+  }
+  .showcase-container > h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 5rem;
+  }
+  .showcase-container > p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  /* Utility */
+  .section-title {
+    font-size: 3.2rem;
+  }
+
+  .section-container {
+    padding: 3rem;
+  }
+
+  /* Sobre */
+  .about-me-content {
+    flex-direction: column;
+  }
+  .about-me-content > .profile-img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .about-me-content > p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  /* Habilidade */
+
+  #skill .section-title {
+    width: 22.7rem;
+  }
+
+  .skill-content {
+    margin-top: 4rem;
+    flex-direction: column;
+  }
+
+  .skill-item {
+    padding: 3rem;
+  }
+  .skill-item img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .skill-item p {
+    font-size: 1.4rem;
+  }
+
+  .skill-item:nth-child(2) {
+    margin: 40px 0;
+  }
+
+  /* Projetos */
+
+  .project-content {
+    margin-top: 4rem;
+  }
+  .project-item {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .project-item img {
+    max-width: 25rem;
+  }
+  .project-text {
+    margin-left: 0;
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+  .project-text h3 {
+    font-size: 2.5rem;
+  }
+
+  .project-item .project-text p {
+    font-size: 1.5rem;
+  }
+
+  .project-item:nth-child(2) > img,
+  .project-item:nth-child(4) > img {
+    order: initial;
+  }
+  .project-item:nth-child(2) > .project-text,
+  .project-item:nth-child(4) > .project-text {
+    order: initial;
+    text-align: center;
+    margin-right: initial;
+  }
+
+  /* Contanct */
+  #contact .section-title {
+    font-size: 3.2rem;
+    width: 18.7rem;
+  }
+
+  .contact-form {
+    margin-top: 4rem;
+  }
+
+  .form-input,
+  .form-button {
+    width: 330px;
+    height: 54px;
+  }
+
+  /* Footer */
+  .footer-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container span {
+    font-size: 1.6rem;
+  }
+
+  
+
+
+
+}

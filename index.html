@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="app.js" defer></script>
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <nav class="navbar-container">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skill">Habilidade</a></li>
+        <li><a href="#project">Projetos</a></li>
+        <li><a href="#contact">Contatos</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="#home" class="showcase-container typewriter">
+        <h1>Olá, eu sou o Diego</h1>
+        <p>A PROFESSIONAL WEB DEVELOPER</p>
+
+        <div class="arrow-down">
+          <a href="#about">
+            <script
+              src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+              type="module"
+            ></script>
+            <dotlottie-player
+              src="https://lottie.host/bfd50539-0607-4588-b496-a501b9b53fd9/qlJ3g0bDkO.json"
+              background="transparent"
+              speed="1"
+              style="width: 100px; height: 100px"
+              direction="1"
+              playMode="normal"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </a>
+        </div>
+      </section>
+      <section id="about">
+        <div class="section-container">
+          <div
+            class="section-content"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <h2 class="section-title">Sobre mim</h2>
+            <div
+              class="about-me-content"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <img class="profile-img" src="img/abourt-me-profile.png" alt="" />
+              <p>
+                Meu nome é Diego, e sou um desenvolvedor full stack com uma
+                paixão insaciável por criar soluções inovadoras e funcionais.
+                Com uma sólida base em HTML, CSS e JavaScript, meu objetivo é
+                oferecer experiências de usuário envolventes e intuitivas em
+                todas as plataformas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="section-container">
+          <div
+            class="section-content"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-offset="300"
+          >
+            <h2 class="section-title">HABILIDADES</h2>
+            <div
+              class="skill-content"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+              data-aos-easing="linear"
+            >
+              <div class="skill-item">
+                <img src="img/HTML ICON.png" alt="HTML" />
+                <span>HTML</span>
+                <p>
+                  Linguagem responsável por <br />
+                  definir o esqueleto de sites.<br />
+                  Possuo amplo domínio.
+                </p>
+              </div>
+              <div class="skill-item">
+                <img src="img/CSS ICON.png" alt="CSS" />
+                <span>CSS</span>
+                <p>
+                  Linguagem responsável por <br />
+                  definir o estilo dos sites. Possuo <br />
+                  amplo domínio.
+                </p>
+              </div>
+              <div class="skill-item">
+                <img src="img/JS ICON.png" alt="JavaScript" />
+                <span>JavaScript</span>
+                <p>
+                  Linguagem responsável por <br />
+                  adicionar lógica aos sites. <br />
+                  Possuo amplo domínio
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <div class="section-container">
+          <div class="section-content">
+            <h1
+              class="section-title"
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              PROJETOS
+            </h1>
+            <div class="project-content">
+              <div
+                class="project-item"
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <img src="img/startup.png" alt="Landing page Statup" />
+                <div class="project-text">
+                  <h3>Landing Page de Startup</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Laoreet tellus et
+                    lorem turpis. Habitasse ornare sed lacinia amet malesuada
+                    scelerisque hac amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-item"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <img src="img/hotel.png" alt="Página de Hotel" />
+                <div class="project-text">
+                  <h3>Página de Hotel</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Laoreet tellus et
+                    lorem turpis. Habitasse ornare sed lacinia amet malesuada
+                    scelerisque hac amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-item"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <img src="img/programming.png" alt="Página de Hotel" />
+                <div class="project-text">
+                  <h3>Portfólio de Programador</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Laoreet tellus et
+                    lorem turpis. Habitasse ornare sed lacinia amet malesuada
+                    scelerisque hac amet.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="project-item"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <img src="img/Tempo.png" alt="Previsão do Tempo" />
+                <div class="project-text">
+                  <h3>Previsão do Tempo</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Laoreet tellus et
+                    lorem turpis. Habitasse ornare sed lacinia amet malesuada
+                    scelerisque hac amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="section-container">
+          <div
+            class="section-content"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <h2 class="section-title">Entre em contato</h2>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/diegogoncalvesreis210@gmail.com"
+              method="POST"
+            >
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+                placeholder="Seu nome"
+                class="form-input"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu e-mail"
+                class="form-input"
+              />
+
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                placeholder="Sua mensagem"
+                class="form-input"
+              ></textarea>
+
+              <input type="submit" value="Enviar" class="form-button" />
+
+              <input type="hidden" name="_subject" value="Novo Contato" />
+              <input type="text" name="_honey" style="display: none" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="http://127.0.0.1:5500/thanks.html"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="social-items">
+        <a href="mailto:diegogoncalvesreis210@gmail.com">
+          <img src="img/Vector-email.png" alt="" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/diegolima-dev/">
+          <img src="img/Vector-linkedIn.png" alt="" />
+        </a>
+        <a href="https://github.com/DEVDiegoLima">
+          <img src="img/logotipo.png" alt="" />
+        </a>
+      </div>
+      <span> Copyright 2023 </span>
+    </footer>
+  </body>
+</html>
